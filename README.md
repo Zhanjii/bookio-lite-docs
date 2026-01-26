@@ -1,3 +1,10 @@
+---
+layout: default
+title: Getting Started
+nav_order: 2
+description: "Installation and getting started"
+---
+
 # BOOK.IO Lite
 
 A comprehensive Adobe After Effects automation tool for creating professional book covers, social media assets, and special effects.

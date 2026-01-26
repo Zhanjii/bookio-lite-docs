@@ -1,4 +1,23 @@
-title: BOOK.IO Lite Documentation
+# Just the Docs theme configuration
+remote_theme: just-the-docs/just-the-docs
+
+title: BOOK.IO Lite
 description: After Effects automation tool for book covers and media assets
-theme: jekyll-theme-cayman
-show_downloads: false
+url: https://zhanjii.github.io
+baseurl: /bookio-lite-docs
+
+color_scheme: dark
+
+nav_enabled: true
+nav_sort: case_insensitive
+search_enabled: true
+search.button: true
+back_to_top: true
+heading_anchors: true
+
+aux_links:
+  "GitHub":
+    - "https://github.com/Zhanjii/BOOK.io_Lite_Modular"
+aux_links_new_tab: true
+
+footer_content: "BOOK.IO Lite - After Effects Automation"

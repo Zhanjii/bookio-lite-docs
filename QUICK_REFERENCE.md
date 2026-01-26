@@ -1,3 +1,10 @@
+---
+layout: default
+title: Quick Reference
+nav_order: 5
+description: "Common operations cheat sheet"
+---
+
 # BOOK.IO Lite v6.0.3 Quick Reference
 
 Fast lookup guide for common tasks and namespace API

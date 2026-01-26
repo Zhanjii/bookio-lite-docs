@@ -1,3 +1,10 @@
+---
+layout: default
+title: Changelog
+nav_order: 7
+description: "Version history and release notes"
+---
+
 # Changelog
 
 All notable changes to BOOK.IO Lite will be documented in this file.

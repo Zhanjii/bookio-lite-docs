@@ -1,3 +1,10 @@
+---
+layout: default
+title: Migration Guide
+nav_order: 6
+description: "Updating code for new namespace"
+---
+
 # BOOK.IO Lite Namespace Migration Guide
 
 Version 6.0.3 - Updating code to use the new BOOKIO namespace

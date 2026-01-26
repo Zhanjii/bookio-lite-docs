@@ -1,3 +1,10 @@
+---
+layout: default
+title: Architecture
+nav_order: 3
+description: "System design and module organization"
+---
+
 # BOOK.IO Lite Architecture
 
 Version 6.0.3 - System design, module organization, and dependency structure
