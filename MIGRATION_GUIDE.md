@@ -1,10 +1,10 @@
 # BOOK.IO Lite Namespace Migration Guide
 
-Version 6.0.3 - Updating code to use the new BOOKIO namespace
+Version 6.0.4 - Updating code to use the new BOOKIO namespace
 
 ## Overview
 
-Version 6.0.3 introduces the `$.global.BOOKIO` namespace to organize 57+ utility functions into 9 logical categories. This guide helps you migrate existing code to use the new namespace structure.
+Version 6.0.4 introduces the `$.global.BOOKIO` namespace to organize 57+ utility functions into 9 logical categories. This guide helps you migrate existing code to use the new namespace structure.
 
 ### Key Points
 
@@ -335,7 +335,7 @@ var layer2 = $.global.BOOKIO.finder.layer(comp, "Title"); // NEW
 
 ### Duration of Support
 
-- **Current Release (6.0.3):** Full backward compatibility
+- **Current Release (6.0.4):** Full backward compatibility
 - **Future Releases:** Old functions may show deprecation warnings
 - **Eventually:** Old exports may be removed (with advance notice)
 
@@ -501,5 +501,5 @@ The new BOOKIO namespace provides:
 ---
 
 **Last Updated:** January 2026
-**Version:** 6.0.3
+**Version:** 6.0.4
 **Guide Version:** 1.0

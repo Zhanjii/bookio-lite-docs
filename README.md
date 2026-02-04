@@ -41,7 +41,7 @@ This allows the script to dock alongside native After Effects panels like Timeli
    - **Windows**: `C:\Program Files\Adobe\Adobe After Effects [version]\Support Files\Scripts\ScriptUI Panels\`
    - **Mac**: `/Applications/Adobe After Effects [version]/Scripts/ScriptUI Panels/`
 3. **Restart After Effects**
-4. **Launch**: Go to `Window > BOOK.IO_Lite_v6.0.3.jsx`
+4. **Launch**: Go to `Window > BOOK.IO_Lite_v6.0.4.jsx`
 5. **Dock**: Drag the panel to dock it alongside other panels
 
 **Tip for Developers**: Create a symbolic link instead of copying to keep the script synchronized:
@@ -54,7 +54,7 @@ This allows the script to dock alongside native After Effects panels like Timeli
 2. **Copy to Scripts folder**:
    - **Windows**: `C:\Program Files\Adobe\Adobe After Effects [version]\Support Files\Scripts\`
    - **Mac**: `/Applications/Adobe After Effects [version]/Scripts/`
-3. **Launch**: In After Effects, go to `File > Scripts > BOOK.IO_Lite_v6.0.3.jsx`
+3. **Launch**: In After Effects, go to `File > Scripts > BOOK.IO_Lite_v6.0.4.jsx`
 
 ## Requirements
 
@@ -66,8 +66,8 @@ This allows the script to dock alongside native After Effects panels like Timeli
 ### Getting Started
 
 1. Launch the script:
-   - **Dockable panel**: Go to `Window > BOOK.IO_Lite_v6.0.3.jsx`
-   - **Floating palette**: Go to `File > Scripts > BOOK.IO_Lite_v6.0.3.jsx`
+   - **Dockable panel**: Go to `Window > BOOK.IO_Lite_v6.0.4.jsx`
+   - **Floating palette**: Go to `File > Scripts > BOOK.IO_Lite_v6.0.4.jsx`
 2. Use the tabbed interface to access different functionality groups
 3. Configure your project settings in the INPUT/OUTPUT panel
 4. Make creative adjustments using the provided controls
@@ -92,7 +92,7 @@ This allows the script to dock alongside native After Effects panels like Timeli
 The script follows a modular architecture for maintainability:
 
 ```
-BOOK.IO_Lite_v6.0.3.jsx        # Main script file
+BOOK.IO_Lite_v6.0.4.jsx        # Main script file
 ModularScripts/                # Folder containing all modules
 ├── 00UT/                     # Utility functions and helpers
 │   ├── 00UT_00_bootstrap.jsx  # BOOKIO namespace initialization
@@ -114,7 +114,7 @@ UI_assets/                     # Images for the user interface
 
 ## Namespace Structure
 
-Since version 6.0.3, BOOK.IO Lite uses a organized namespace structure to avoid global scope pollution:
+Since version 6.0.4, BOOK.IO Lite uses a organized namespace structure to avoid global scope pollution:
 
 ```javascript
 $.global.BOOKIO
@@ -180,5 +180,5 @@ For support, please contact the author at nocturnalsession@gmail.com or open an 
 ## Acknowledgements
 
 - Developed by Zhanji (nocturnalsession@gmail.com)
-- Version 6.0.3
+- Version 6.0.4
 - Special thanks to BOOK.IO for their support and guidance

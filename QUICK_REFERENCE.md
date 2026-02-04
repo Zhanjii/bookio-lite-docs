@@ -1,4 +1,4 @@
-# BOOK.IO Lite v6.0.3 Quick Reference
+# BOOK.IO Lite v6.0.4 Quick Reference
 
 Fast lookup guide for common tasks and namespace API
 
@@ -488,5 +488,5 @@ $.global.BOOKIO.color.applyFont(layer, "#000000"); // Correct
 
 ---
 
-**Version:** 6.0.3
+**Version:** 6.0.4
 **Last Updated:** January 2026
