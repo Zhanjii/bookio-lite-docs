@@ -1,10 +1,3 @@
----
-layout: default
-title: Namespace Reference
-nav_order: 4
-description: "BOOKIO namespace API reference"
----
-
 # BOOK.IO Lite Namespace API Documentation
 
 Version 6.0.3 - Complete reference for the BOOKIO namespace structure

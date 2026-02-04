@@ -1,9 +1,6 @@
 ---
-layout: home
-title: Home
-nav_order: 1
-description: "After Effects automation tool for book covers and media assets"
-permalink: /
+layout: default
+title: BOOK.IO Lite Documentation
 ---
 
 # BOOK.IO Lite
