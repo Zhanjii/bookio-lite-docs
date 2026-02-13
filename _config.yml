@@ -1,0 +1,38 @@
+# Just the Docs theme configuration
+# https://just-the-docs.com/
+
+remote_theme: just-the-docs/just-the-docs
+
+# Site settings
+title: BOOK.IO Lite
+description: After Effects automation tool for book covers and media assets
+url: https://zhanjii.github.io
+baseurl: /bookio-lite-docs
+
+# Color scheme - "light" or "dark"
+color_scheme: dark
+
+# Navigation structure
+nav_enabled: true
+nav_sort: case_insensitive
+
+# Search
+search_enabled: true
+search.button: true
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Footer content
+footer_content: "BOOK.IO Lite - After Effects Automation Tool"
+
+# Aux links (top right of page)
+aux_links:
+  "GitHub":
+    - "https://github.com/Zhanjii/BOOK.io_Lite_Modular"
+
+aux_links_new_tab: true
+
+# Heading anchor links
+heading_anchors: true
