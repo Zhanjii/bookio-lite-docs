@@ -1,6 +1,6 @@
 # BOOK.IO Lite Namespace API Documentation
 
-Version 6.0.4 - Complete reference for the BOOKIO namespace structure
+Version 6.0.5 - Complete reference for the BOOKIO namespace structure
 
 ## Table of Contents
 
@@ -1167,7 +1167,7 @@ $.global.stickers                   // Array of sticker patterns
 $.global.mediaTypes                 // Array of available media types
 $.global.aspectRatios               // Object mapping media types to aspect ratios
 $.global.fps                        // Frames per second (30)
-$.global.globalVersion              // Version string ("6.0.4")
+$.global.globalVersion              // Version string ("6.0.5")
 ```
 
 ---
@@ -1193,5 +1193,5 @@ For issues, improvements, or questions about the namespace API:
 ---
 
 **Last Updated:** January 2026
-**Version:** 6.0.4
+**Version:** 6.0.5
 **Maintained By:** BOOK.IO Development Team

@@ -1,6 +1,6 @@
 # BOOK.IO Lite Architecture
 
-Version 6.0.4 - System design, module organization, and dependency structure
+Version 6.0.5 - System design, module organization, and dependency structure
 
 ## Table of Contents
 
@@ -17,7 +17,7 @@ Version 6.0.4 - System design, module organization, and dependency structure
 
 ## Overview
 
-BOOK.IO Lite v6.0.4 is organized as a modular ExtendScript application for Adobe After Effects. The system separates concerns into distinct modules that operate through a centralized namespace (`$.global.BOOKIO`), eliminating global scope pollution while maintaining clean separation of concerns.
+BOOK.IO Lite v6.0.5 is organized as a modular ExtendScript application for Adobe After Effects. The system separates concerns into distinct modules that operate through a centralized namespace (`$.global.BOOKIO`), eliminating global scope pollution while maintaining clean separation of concerns.
 
 ### Key Design Principles
 
@@ -90,7 +90,7 @@ ModularScripts/00CF/
 - `$.global.mediaTypes` - Available media types
 - `$.global.aspectRatios` - Aspect ratio mappings
 - `$.global.fps` - Frame rate (30)
-- `$.global.globalVersion` - Version (6.0.4)
+- `$.global.globalVersion` - Version (6.0.5)
 
 **Constants Namespaces:**
 - `$.global.COMPS` - Composition names
@@ -206,7 +206,7 @@ ModularScripts/04MP/
 ### 7. Main Script
 
 ```
-BOOK.IO_Lite_v6.0.4.jsx
+BOOK.IO_Lite_v6.0.5.jsx
 ```
 
 **Responsibility:**
@@ -332,7 +332,7 @@ Core Utilities (00UT_01*.jsx)
     ↓
 01BC, 02SC, 03EF, 04MP (UI controls)
     ↓
-BOOK.IO_Lite_v6.0.4.jsx (main script)
+BOOK.IO_Lite_v6.0.5.jsx (main script)
 ```
 
 ---
@@ -795,5 +795,5 @@ Each module should be tested independently:
 ---
 
 **Last Updated:** January 2026
-**Version:** 6.0.4
+**Version:** 6.0.5
 **Maintained By:** BOOK.IO Development Team

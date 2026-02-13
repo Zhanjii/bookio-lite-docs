@@ -5,6 +5,26 @@ All notable changes to BOOK.IO Lite will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.0.5] - 2026-02-12
+
+### Fixed
+- **Crash Prevention**: Added centralized `getDropdownText()` helper — eliminates 18 crash-prone `.selection.text` patterns across 9 files
+- **Infinite Recursion Guard**: Added `processedComps` tracking to `updateFileReferencesInExpressions()` to prevent circular reference loops
+- **File I/O Safety**: Added `file.open()` return value checks in error handler, JSON bridge UI, log viewer, and input/output settings
+- **CompItem Type Check**: Added `instanceof CompItem` guard in sticker position module
+
+### Improved
+- **Undo Support**: Added undo groups to 7 UI callback modules (title positions, sizes, scaling, side text, media type, position L/R)
+- **Performance**: Cached `comp.layer(i)` in core finder and 6+ files, single-pass `findBookTitleLayer()`, extracted shared helpers
+- **Dead Code Cleanup**: Removed ~400+ lines of dead code (orphaned wrappers, legacy exports, unused functions, startup test block)
+- **Constants Migration**: Migrated hardcoded UI strings to `$.global.UI` and file paths to `$.global.FILES` constants
+- **Module Registration**: Registered `03EF_04_ds_tag_toggle.jsx` in module loader
+
+### Technical
+- Script file renamed from `BOOK.IO_Lite_v6.0.4.jsx` to `BOOK.IO_Lite_v6.0.5.jsx`
+- 50 issues fixed across 6 specialized review categories (dead code, crash bugs, performance, logic bugs, undo safety)
+- Full review report archived in `action-plans/old/review-*-001.md`
+
 ## [6.0.4] - 2026-01-20
 
 ### Added
@@ -66,6 +86,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| 6.0.5 | 2026-02-12 | 50 bug fixes, crash prevention, undo groups, performance |
 | 6.0.4 | 2026-01-20 | Dockable panel support, GitHub Pages, CHANGELOG |
 | 6.0.2 | 2025-12-26 | BOOKIO namespace, JSON Bridge, modular architecture |
 | 6.0.1 | 2025-11-15 | Initial modular structure |
@@ -78,11 +99,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Dockable Panel (Recommended)
 1. Copy `BOOK.io_Lite_Modular` folder to `ScriptUI Panels` folder
 2. Restart After Effects
-3. Launch from `Window > BOOK.IO_Lite_v6.0.4.jsx`
+3. Launch from `Window > BOOK.IO_Lite_v6.0.5.jsx`
 
 ### Floating Palette
 1. Copy `BOOK.io_Lite_Modular` folder to `Scripts` folder
-2. Launch from `File > Scripts > BOOK.IO_Lite_v6.0.4.jsx`
+2. Launch from `File > Scripts > BOOK.IO_Lite_v6.0.5.jsx`
 
 ---
 
